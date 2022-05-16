@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle")
 const fs = require("fs")
 const privateKey = fs.readFileSync(".secret").toString()
-const projectId = "wiU5yGzT1P1FQ3yUhHIFxsf9p24G4MBM"
+const projectId = "c4a36042172e4ff3991afb9c1e1e7f52"
 
 
 
@@ -11,11 +11,11 @@ module.exports = {
       chainId: 1337
     },
     mumbai: {
-      url: `https://polygon-mumbai.g.alchemy.com/v2/${projectId}`,
+      url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
       accounts: [privateKey]
     },
     mainnet: {
-      url: `https://polygon-mainnet.g.alchemy.com/v2/${projectId}`,
+      url: `https://polygon-mainnet.infura.io/v3/${projectId}`,
       accounts: [privateKey]
     }
 
