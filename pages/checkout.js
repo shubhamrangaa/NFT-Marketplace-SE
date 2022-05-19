@@ -8,7 +8,7 @@ const Checkout = () => {
   const router = useRouter();
   const { item } = router.query;
 
-  const currentNft = {};
+  let currentNft = {};
   for (const i = 0; i < dashboardList.length; i++) {
     if (dashboardList[i].key === item) {
       currentNft = dashboardList[i];
