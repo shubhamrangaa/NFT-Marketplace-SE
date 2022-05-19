@@ -6,17 +6,19 @@ import Web3Modal from "web3modal";
 
 import { marketplaceAddress } from "../config";
 
+import { favouriteList as nftList } from "../utilities/nftList.json";
+
 // import NFTMarketplace from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json";
-const nftList = [
-  {
-    image:
-      "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
-    name: "Mona Lisa",
-    description:
-      "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
-    price: "7.99 ETH",
-  },
-];
+// const nftList = [
+//   {
+//     image:
+//       "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
+//     name: "Mona Lisa",
+//     description:
+//       "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
+//     price: "7.99 ETH",
+//   },
+// ];
 
 export default function Dashboard() {
   const [nfts, setNfts] = useState([]);
@@ -67,12 +69,12 @@ export default function Dashboard() {
     return <h1 className="py-10 px-20 text-3xl">No NFTs listed</h1>;
   return (
     <div>
-      <div className="p-4">
-        <h2 className="text-2xl py-2">Items Listed</h2>
+      <div className="p-5 m-10 mt-7">
+        <h2 className="text-2xl py-2">Favourites</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {nftList.map((nft, i) => (
             <div key={i} className="border shadow rounded-xl overflow-hidden">
-              <img src={nft.image} className="rounded" />
+              <img src={nft.image} className="rounded" height="300px" />
               <div className="p-4 bg-black">
                 <p className="text-2xl font-bold text-white">
                   Price - {nft.price} Eth

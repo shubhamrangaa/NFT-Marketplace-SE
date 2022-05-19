@@ -1,0 +1,64 @@
+{
+  "dashboardList": [
+    {
+      "image": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
+      "name": "Mona Lisa",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
+      "price": "7.99 ",
+      "key": "mona"
+    },
+    {
+      "image": "https://images.barrons.com/im-492408?width=700&size=0.6666666666666666&pixel_ratio=1.5",
+      "name": "The Mascot Doodle",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper.",
+      "price": "14.99 ",
+      "key": "doodle"
+    },
+    {
+      "image": "https://images.barrons.com/im-492407?width=700&size=1.5&pixel_ratio=1.5",
+      "name": "5000 Days",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper.",
+      "price": "199.99 ",
+      "key": "5000"
+    },
+    {
+      "image": "https://static01.nyt.com/images/2021/03/11/arts/11nft-explain-1/merlin_184196631_939fb22d-b909-4205-99d9-b464fb961d32-jumbo.jpg?quality=75&auto=webp",
+      "name": "High Price",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
+      "price": "7.99 ",
+      "key": "mo"
+    },
+    {
+      "image": "https://www.business2community.com/wp-content/uploads/2022/05/athletes-nfts.png",
+      "name": "Athelete",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
+      "price": "7.99 ",
+      "key": "athelete"
+    }
+  ],
+  "myNftList": [
+    {
+      "image": "https://images.barrons.com/im-492407?width=700&size=1.5&pixel_ratio=1.5",
+      "name": "5000 Days",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper.",
+      "price": "199.99 ",
+      "key": "5000"
+    }
+  ],
+  "favouriteList": [
+    {
+      "image": "https://images.barrons.com/im-492407?width=700&size=1.5&pixel_ratio=1.5",
+      "name": "5000 Days",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper.",
+      "price": "199.99 ",
+      "key": "5000"
+    },
+    {
+      "image": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
+      "name": "Mona Lisa",
+      "description": "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
+      "price": "7.99 ",
+      "key": "mona"
+    }
+  ]
+}

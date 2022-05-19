@@ -1,10 +1,15 @@
 import "../styles/globals.css";
 import "../styles/Home.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 function _app({ Component, pageProps }) {
   return (
     <div>
+      <Head>
+        <title>NFT Marketplace</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <nav className="border-b p-6">
         <p className="text-4xl font-bold">Metaverse Marketplace</p>
         <div className="flex mt-4">

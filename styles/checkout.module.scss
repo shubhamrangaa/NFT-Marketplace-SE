@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem;
+
+  .card {
+    width: 350px;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    background-color: #ec4899;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+}
