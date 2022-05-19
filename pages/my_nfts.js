@@ -4,20 +4,10 @@ import axios from "axios";
 import Web3Modal from "web3modal";
 import { useRouter } from "next/router";
 
-import { myNftList as nftList } from "../utilities/nftList.json";
-
+// import { myNftList as nftList } from "../utilities/nftList.json";
+import data from "../utilities/nftList.json";
+let nftList = data.myNftList;
 import { marketplaceAddress } from "../config";
-
-// const nftList = [
-//   {
-//     image:
-//       "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg",
-//     name: "Mona Lisa",
-//     description:
-//       "Non-fungible tokens (NFTs) seem to have exploded out of the ether this year. From art and music to tacos and toilet paper, these digital assets are selling like 17th-century exotic Dutch tulips—some for millions of dollars.",
-//     price: "7.99",
-//   },
-// ];
 
 // import NFTMarketplace from '../artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 

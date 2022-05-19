@@ -3,7 +3,9 @@ import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Web3Modal from "web3modal";
-import { dashboardList as nftList } from "../utilities/nftList.json";
+
+import data from "../utilities/nftList.json";
+let nftList = data.dashboardList;
 
 import { marketplaceAddress } from "../config";
 import Link from "next/link";
